@@ -36,6 +36,13 @@ public interface DemoRepository extends JpaRepository<DemoEntity, Integer> {
     List<DemoEntity> findByInt1In(Collection<Integer> intList);
     List<DemoEntity> findByInt1NotIn(Collection<Integer> intList);
 
+    /* top/first */
+    DemoEntity findTopByString1AndString2IsNull(String string1);
+    DemoEntity findFirstByString2(String string2);
+
+    /* top 2 */
+    List<DemoEntity> findTop2ByString1(String string1);
+
     /**
      * Example for normal use
      */
@@ -52,7 +59,7 @@ public interface DemoRepository extends JpaRepository<DemoEntity, Integer> {
     /* */
     List<DemoEntity> findByPersonId(Integer personId);
     Long countByPersonId(Integer personId);
-    void remove(Integer personId);
+    void removeByPersonId(Integer personId);
 
     /**
      * Example for custom query use

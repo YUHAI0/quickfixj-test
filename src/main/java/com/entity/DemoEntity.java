@@ -1,5 +1,7 @@
 package com.entity;
 
+import org.hibernate.annotations.Cascade;
+
 import javax.persistence.*;
 
 @Entity
@@ -25,8 +27,20 @@ public class DemoEntity {
     private Integer int2;
 
     @JoinColumn(name = "person_id")
-    @ManyToOne // Mandatory Annotation
+    @ManyToOne(cascade = CascadeType.ALL) // Mandatory Annotation
     private Person person;
+
+//    public DemoEntity() { }
+
+    public DemoEntity(String string1, String string2, Double double1, Integer int1, Integer int2, Person person) {
+        this.id = id;
+        this.string1 = string1;
+        this.string2 = string2;
+        this.double1 = double1;
+        this.int1 = int1;
+        this.int2 = int2;
+        this.person = person;
+    }
 
     public Integer getId() {
         return id;
