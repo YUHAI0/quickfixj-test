@@ -17,7 +17,8 @@ import static org.assertj.core.api.Assertions.assertThat;
 
 
 @RunWith(SpringRunner.class)
-@SpringBootTest(classes = ApiApplication.class)
+//@SpringBootTest(classes = ApiApplication.class)
+@ContextConfiguration(classes=ApiApplication.class)
 @DataJpaTest
 public class DemoRepositoryTester {
 
