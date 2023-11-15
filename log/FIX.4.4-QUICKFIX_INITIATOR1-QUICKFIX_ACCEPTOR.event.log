@@ -1,0 +1,177 @@
+20231115-08:52:38: Session FIX.4.4:QUICKFIX_INITIATOR1->QUICKFIX_ACCEPTOR schedule is daily, 00:00:00-UTC - 23:00:00-UTC
+20231115-08:52:38: Created session: FIX.4.4:QUICKFIX_INITIATOR1->QUICKFIX_ACCEPTOR
+20231115-08:52:38: Configured socket addresses for session: [/10.176.125.79:10003]
+20231115-08:52:40: Pending connection not established after 2015 ms.
+20231115-08:52:43: Pending connection not established after 5028 ms.
+20231115-08:52:46: Pending connection not established after 8047 ms.
+20231115-08:52:49: Pending connection not established after 11063 ms.
+20231115-08:52:52: Pending connection not established after 14068 ms.
+20231115-08:52:55: Pending connection not established after 17085 ms.
+20231115-08:52:59: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:53:02: Pending connection not established after 2009 ms.
+20231115-08:53:05: Pending connection not established after 5037 ms.
+20231115-08:53:08: Pending connection not established after 8060 ms.
+20231115-08:53:11: Pending connection not established after 11065 ms.
+20231115-08:53:14: Pending connection not established after 14078 ms.
+20231115-08:53:17: Pending connection not established after 17099 ms.
+20231115-08:53:20: Pending connection not established after 20122 ms.
+20231115-08:53:21: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:53:24: Pending connection not established after 2014 ms.
+20231115-08:53:27: Pending connection not established after 5021 ms.
+20231115-08:53:30: Pending connection not established after 8040 ms.
+20231115-08:53:35: Pending connection not established after 13054 ms.
+20231115-08:53:38: Pending connection not established after 16070 ms.
+20231115-08:53:41: Pending connection not established after 19087 ms.
+20231115-08:53:43: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:53:46: Pending connection not established after 2005 ms.
+20231115-08:53:49: Pending connection not established after 5021 ms.
+20231115-08:53:52: Pending connection not established after 8038 ms.
+20231115-08:53:55: Pending connection not established after 11046 ms.
+20231115-08:53:58: Pending connection not established after 14064 ms.
+20231115-08:54:01: Pending connection not established after 17082 ms.
+20231115-08:54:04: Pending connection not established after 20085 ms.
+20231115-08:54:05: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:54:08: Pending connection not established after 2016 ms.
+20231115-08:54:11: Pending connection not established after 5044 ms.
+20231115-08:54:14: Pending connection not established after 8069 ms.
+20231115-08:54:17: Pending connection not established after 11092 ms.
+20231115-08:54:20: Pending connection not established after 14112 ms.
+20231115-08:54:23: Pending connection not established after 17136 ms.
+20231115-08:54:26: Pending connection not established after 20145 ms.
+20231115-08:54:27: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:54:30: Pending connection not established after 2013 ms.
+20231115-08:54:33: Pending connection not established after 5039 ms.
+20231115-08:54:38: Pending connection not established after 10066 ms.
+20231115-08:54:42: Pending connection not established after 13092 ms.
+20231115-08:54:45: Pending connection not established after 16113 ms.
+20231115-08:54:48: Pending connection not established after 19124 ms.
+20231115-08:54:49: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:54:53: Pending connection not established after 2014 ms.
+20231115-08:54:56: Pending connection not established after 5045 ms.
+20231115-08:54:59: Pending connection not established after 8073 ms.
+20231115-08:55:02: Pending connection not established after 11086 ms.
+20231115-08:55:05: Pending connection not established after 14113 ms.
+20231115-08:55:08: Pending connection not established after 17132 ms.
+20231115-08:55:11: Pending connection not established after 20152 ms.
+20231115-08:55:12: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:55:15: Pending connection not established after 2019 ms.
+20231115-08:55:18: Pending connection not established after 5034 ms.
+20231115-08:55:21: Pending connection not established after 8049 ms.
+20231115-08:55:24: Pending connection not established after 11057 ms.
+20231115-08:55:27: Pending connection not established after 14066 ms.
+20231115-08:55:30: Pending connection not established after 17083 ms.
+20231115-08:55:33: Pending connection not established after 20114 ms.
+20231115-08:55:34: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:55:37: Pending connection not established after 2016 ms.
+20231115-08:55:40: Pending connection not established after 5044 ms.
+20231115-08:55:43: Pending connection not established after 8059 ms.
+20231115-08:55:46: Pending connection not established after 11084 ms.
+20231115-08:55:49: Pending connection not established after 14106 ms.
+20231115-08:55:52: Pending connection not established after 17118 ms.
+20231115-08:55:55: Pending connection not established after 20137 ms.
+20231115-08:55:56: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:55:59: Pending connection not established after 2008 ms.
+20231115-08:56:02: Pending connection not established after 5010 ms.
+20231115-08:56:05: Pending connection not established after 8035 ms.
+20231115-08:56:08: Pending connection not established after 11050 ms.
+20231115-08:56:11: Pending connection not established after 14064 ms.
+20231115-08:56:14: Pending connection not established after 17089 ms.
+20231115-08:56:17: Pending connection not established after 20117 ms.
+20231115-08:56:18: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:56:21: Pending connection not established after 2009 ms.
+20231115-08:56:24: Pending connection not established after 5023 ms.
+20231115-08:56:27: Pending connection not established after 8039 ms.
+20231115-08:56:32: Pending connection not established after 13067 ms.
+20231115-08:56:35: Pending connection not established after 16090 ms.
+20231115-08:56:38: Pending connection not established after 19095 ms.
+20231115-08:56:40: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:56:43: Pending connection not established after 2015 ms.
+20231115-08:56:46: Pending connection not established after 5039 ms.
+20231115-08:56:49: Pending connection not established after 8059 ms.
+20231115-08:56:52: Pending connection not established after 11089 ms.
+20231115-08:56:55: Pending connection not established after 14101 ms.
+20231115-08:56:58: Pending connection not established after 17122 ms.
+20231115-08:57:01: Pending connection not established after 20133 ms.
+20231115-08:57:02: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:57:05: Pending connection not established after 2017 ms.
+20231115-08:57:08: Pending connection not established after 5031 ms.
+20231115-08:57:11: Pending connection not established after 8046 ms.
+20231115-08:57:14: Pending connection not established after 11062 ms.
+20231115-08:57:17: Pending connection not established after 14089 ms.
+20231115-08:57:24: Pending connection not established after 20763 ms.
+20231115-08:57:27: Pending connection not established after 23784 ms.
+20231115-08:57:28: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:57:31: Pending connection not established after 2010 ms.
+20231115-08:57:34: Pending connection not established after 5011 ms.
+20231115-08:57:37: Pending connection not established after 8014 ms.
+20231115-08:57:40: Pending connection not established after 11029 ms.
+20231115-08:57:43: Pending connection not established after 14052 ms.
+20231115-08:57:46: Pending connection not established after 17071 ms.
+20231115-08:57:49: Pending connection not established after 20102 ms.
+20231115-08:57:50: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:57:53: Pending connection not established after 2016 ms.
+20231115-08:57:56: Pending connection not established after 5032 ms.
+20231115-08:57:59: Pending connection not established after 8046 ms.
+20231115-08:58:04: Pending connection not established after 13064 ms.
+20231115-08:58:07: Pending connection not established after 16075 ms.
+20231115-08:58:10: Pending connection not established after 19099 ms.
+20231115-08:58:12: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:58:15: Pending connection not established after 2015 ms.
+20231115-08:58:18: Pending connection not established after 5074 ms.
+20231115-08:58:21: Pending connection not established after 8095 ms.
+20231115-08:58:24: Pending connection not established after 11110 ms.
+20231115-08:58:27: Pending connection not established after 14128 ms.
+20231115-08:58:30: Pending connection not established after 17156 ms.
+20231115-08:58:33: Pending connection not established after 20171 ms.
+20231115-08:58:34: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:58:37: Pending connection not established after 2009 ms.
+20231115-08:58:40: Pending connection not established after 5036 ms.
+20231115-08:58:43: Pending connection not established after 8053 ms.
+20231115-08:58:46: Pending connection not established after 11063 ms.
+20231115-08:58:50: Pending connection not established after 14076 ms.
+20231115-08:58:53: Pending connection not established after 17083 ms.
+20231115-08:58:56: Pending connection not established after 20104 ms.
+20231115-08:58:57: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:59:00: Pending connection not established after 2028 ms.
+20231115-08:59:03: Pending connection not established after 5047 ms.
+20231115-08:59:06: Pending connection not established after 8062 ms.
+20231115-08:59:09: Pending connection not established after 11085 ms.
+20231115-08:59:12: Pending connection not established after 14094 ms.
+20231115-08:59:15: Pending connection not established after 17109 ms.
+20231115-08:59:18: Pending connection not established after 20120 ms.
+20231115-08:59:19: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:59:22: Pending connection not established after 2014 ms.
+20231115-08:59:25: Pending connection not established after 5029 ms.
+20231115-08:59:28: Pending connection not established after 8037 ms.
+20231115-08:59:31: Pending connection not established after 11057 ms.
+20231115-08:59:34: Pending connection not established after 14067 ms.
+20231115-08:59:37: Pending connection not established after 17094 ms.
+20231115-08:59:40: Pending connection not established after 20103 ms.
+20231115-08:59:41: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-08:59:44: Pending connection not established after 2004 ms.
+20231115-08:59:47: Pending connection not established after 5029 ms.
+20231115-08:59:50: Pending connection not established after 8046 ms.
+20231115-08:59:53: Pending connection not established after 11067 ms.
+20231115-08:59:56: Pending connection not established after 14080 ms.
+20231115-08:59:59: Pending connection not established after 17101 ms.
+20231115-09:00:02: Pending connection not established after 20114 ms.
+20231115-09:00:03: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-09:00:06: Pending connection not established after 2017 ms.
+20231115-09:00:09: Pending connection not established after 5041 ms.
+20231115-09:00:12: Pending connection not established after 8050 ms.
+20231115-09:00:15: Pending connection not established after 11072 ms.
+20231115-09:00:18: Pending connection not established after 14078 ms.
+20231115-09:00:21: Pending connection not established after 17087 ms.
+20231115-09:00:24: Pending connection not established after 20108 ms.
+20231115-09:00:25: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-09:00:28: Pending connection not established after 2010 ms.
+20231115-09:00:31: Pending connection not established after 5033 ms.
+20231115-09:00:34: Pending connection not established after 8065 ms.
+20231115-09:00:37: Pending connection not established after 11079 ms.
+20231115-09:00:40: Pending connection not established after 14087 ms.
+20231115-09:00:43: Pending connection not established after 17101 ms.
+20231115-09:00:46: Pending connection not established after 20122 ms.
+20231115-09:00:47: java.net.ConnectException during connection to /10.176.125.79:10003: java.net.ConnectException: Connection timed out: no further information (Next retry in 10000 milliseconds)
+20231115-09:00:50: Pending connection not established after 2014 ms.
+20231115-09:00:55: Pending connection not established after 7041 ms.
+20231115-09:00:58: Pending connection not established after 10059 ms.
