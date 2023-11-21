@@ -14,7 +14,7 @@ public class FixInitiator {
 
     public FixInitiator() {
         try {
-            settings = new SessionSettings("src/main/resources/config.properties");
+            settings = new SessionSettings("config.properties");
         } catch (ConfigError configError) {
             System.out.println("Warning: config error!" + configError);
         }

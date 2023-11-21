@@ -1,5 +1,8 @@
 package com.test;
 
+import lombok.extern.slf4j.Slf4j;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import quickfix.*;
 import quickfix.field.*;
 import quickfix.fix44.ExecutionReport;
@@ -9,50 +12,52 @@ import quickfix.fix44.NewOrderSingle;
 
 import java.time.LocalDateTime;
 
+@Slf4j
 public class FixInitiatorApplication extends MessageCracker implements Application {
+//    private static final Logger log = LoggerFactory.getLogger(FixInitiatorApplication.class);
 
     // 以下是Application的固定七件套
     @Override
     public void onCreate(SessionID sessionId) {
-        System.out.println("onCreate is called");
+        log.info("onCreate is called");
     }
 
     @Override
     public void onLogon(SessionID sessionId) {
-        System.out.println("onLogon is called");
+        log.info("onLogon is called");
     }
 
     @Override
     public void onLogout(SessionID sessionId) {
-        System.out.println("onLogout is called");
+        log.info("onLogout is called");
     }
 
     @Override
     public void toAdmin(Message message, SessionID sessionId) {
-        System.out.println("toAdmin is called");
+        log.info("toAdmin is called");
     }
 
     @Override
     public void fromAdmin(Message message, SessionID sessionId) throws FieldNotFound, IncorrectDataFormat, IncorrectTagValue, RejectLogon {
-        System.out.println("fromAdmin is called");
+        log.info("fromAdmin is called");
     }
 
     @Override
     public void toApp(Message message, SessionID sessionId) throws DoNotSend {
-        System.out.println("toApp is called: " + message);
+        log.info("toApp is called: " + message);
     }
 
     @Override
     public void fromApp(Message message, SessionID sessionId) throws FieldNotFound, IncorrectDataFormat, IncorrectTagValue, UnsupportedMessageType {
-        System.out.println("fromApp is called");
+        log.info("fromApp is called");
     }
 
     // 以下是你可以自定义的消息接收器，来自MessageCracker
     @Override
     public void onMessage(ExecutionReport message, SessionID sessionID) throws FieldNotFound, UnsupportedMessageType, IncorrectTagValue {
-        System.out.println("Received ExecutionReport: " + message + ", sessionID: " + sessionID);
+        log.info("Received ExecutionReport: " + message + ", sessionID: " + sessionID);
         // 收都收了，解析一下
-        System.out.println(String.format("clOrderID: %s, symbol: %s, side: %s",
+        log.info(String.format("clOrderID: %s, symbol: %s, side: %s",
                 message.getClOrdID().getValue(),
                 message.getSymbol().getValue(),
                 message.getSide().getValue()));

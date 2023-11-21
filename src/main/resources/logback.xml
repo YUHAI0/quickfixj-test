@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+
+    <!-- 日志存放路径，不要使用相对路径 -->
+    <property name="log.path" value="./"/>
+
+    <!-- 日志输出格式，加上MDC链路追踪 -->
+    <property name="log.pattern"
+              value="%d{HH:mm:ss.SSS} [%X{traceId}] [%thread] %-5level %logger{20} - [%method,%line] - %msg%n"/>
+
+    <!--指定appender，appender要配合root和logger使用，否则没有意义-->
+    <!-- 1.控制台输出 -->
+    <appender name="console" class="ch.qos.logback.core.ConsoleAppender">
+        <!--encoder表示对参数进行格式化，不推荐使用<layout>标签-->
+        <encoder>
+            <pattern>${log.pattern}</pattern>
+            <charset>UTF-8</charset>
+        </encoder>
+    </appender>
+
+    <!-- 3.滚动输出日志到info文件 -->
+<!--    <appender name="file_info" class="ch.qos.logback.core.rolling.RollingFileAppender">-->
+<!--        <file>${log.path}/sys-info.log</file>-->
+<!--        &lt;!&ndash; 循环政策：基于时间创建日志文件 &ndash;&gt;-->
+<!--        <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">-->
+<!--            &lt;!&ndash; 日志文件名格式 &ndash;&gt;-->
+<!--            <fileNamePattern>${log.path}/sys-info.%d{yyyy-MM-dd}.log</fileNamePattern>-->
+<!--            &lt;!&ndash; 日志保存最大周期（天数） &ndash;&gt;-->
+<!--            <maxHistory>30</maxHistory>-->
+<!--            &lt;!&ndash; 最大日志量：在 1.1.6版本后才开始支持&ndash;&gt;-->
+<!--            <totalSizeCap>20GB</totalSizeCap>-->
+<!--        </rollingPolicy>-->
+<!--        <encoder>-->
+<!--            <pattern>${log.pattern}</pattern>-->
+<!--            <charset>UTF-8</charset>-->
+<!--        </encoder>-->
+<!--        <filter class="ch.qos.logback.classic.filter.LevelFilter">-->
+<!--            &lt;!&ndash; 过滤的级别 &ndash;&gt;-->
+<!--            <level>INFO</level>-->
+<!--            &lt;!&ndash; 匹配时的操作：接收（记录） &ndash;&gt;-->
+<!--            <onMatch>ACCEPT</onMatch>-->
+<!--            &lt;!&ndash; 不匹配时的操作：拒绝（不记录） &ndash;&gt;-->
+<!--            <onMismatch>DENY</onMismatch>-->
+<!--        </filter>-->
+<!--    </appender>-->
+
+    <!--指定根logger，默认是info模式-->
+    <root level="INFO">
+        <appender-ref ref="console"/>
+<!--        <appender-ref ref="file_info"/>-->
+    </root>
+
+<!--    <logger name="com.test" level="INFO"/>-->
+
+</configuration>
